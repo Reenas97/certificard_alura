@@ -56,6 +56,12 @@ body {
   
 }
 
+.tema button:hover {
+  background: #1C1C1C;
+  color: #ecf4ff;
+  cursor: pointer;
+}
+
 .projetos {
   background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
@@ -104,5 +110,11 @@ body {
 .dark .tema button {
   background: #1C1C1C;
   color: #FFFFFF;
+  border: 2px solid #F7F7F7; 
+}
+
+.dark .tema button:hover{
+  background: #FFFFFF ;
+  color: #1C1C1C;
   border: 2px solid #F7F7F7; 
 }
